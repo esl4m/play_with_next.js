@@ -12,6 +12,12 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Setps followed to get tests running:
+- Run `npm i -D babel-jest jest @testing-library/jest-dom @testing-library/react react-test-renderer identity-obj-proxy`
+- Added these files: `setupTest.js` , `.babelrc` , `.eslintrc.json` , `jest.config.js` and `config/jest/cssTransform.js` 
+- Run tests using: `npm run test`
+- More tests to be added
+
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
